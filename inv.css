@@ -191,10 +191,16 @@ footer .names{margin:18px 0 0;font-size:40px}
 @media (max-width:520px){
   section{padding:72px 16px}
   .inv-card{padding:60px 20px 52px}
+  .cover-card{padding:42px 20px}
+  .cover-card h1{font-size:clamp(24px,7vw,30px);letter-spacing:.03em}
+  .hero-name{font-size:clamp(48px,13vw,68px)}
+  .inv-names{width:100%;max-width:100%;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:clamp(30px,9vw,42px);letter-spacing:.06em;line-height:.95}
+  .inv-names .and{padding:0;line-height:.7}
   .scratch{width:92px;height:92px}
   .scratch h3{font-size:30px}
   .corner{width:84px;height:84px}
   nav{justify-content:center}
+  footer .names{font-size:clamp(30px,9vw,38px)}
 }
 
 /* Respect users who prefer less motion */
